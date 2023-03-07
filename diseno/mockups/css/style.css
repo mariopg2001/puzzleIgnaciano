@@ -1,0 +1,51 @@
+/*------------------ESTILO DEL MOCKUP DE LOS PUZZLES-----------*/
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+body{
+    font-family: 'Tilt Neon'
+}
+
+h1{
+    color: rgb(42, 96, 153);
+} 
+
+/* ESTILO DEL NAV */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(42, 96, 153);
+    padding: 20px;
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 80px;
+    font-size: x-large;
+    color: white;
+    border-right: 2px solid white;
+    padding-right: 80px;
+    cursor: pointer;
+    /* font-weight: bold; */
+}
+
+li#margin-left{
+    margin-left: 80px;
+}
+
+div#puzzle{
+    width: 750px;
+    height: 700px;
+    background-image: radial-gradient(rgb(225, 225, 225), rgb(179, 179, 179));
+     border: 1px solid gray; 
+    display: inline-block;
+    margin-left: 20px;
+}
+
+div#piezas{
+    width: 750px;
+    height: 700px;
+    background-image: radial-gradient(rgb(167, 167, 167), rgb(141, 141, 141));
+    display: inline-block;
+    margin-left: 80px;
+}
