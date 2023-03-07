@@ -7,10 +7,12 @@ export class VistaInicio extends Vista{
 		this.btncomenzar = document.getElementById('comenzar');
 		this.btnInstrucciones = document.getElementById('Instrucciones');
 		this.btnavisos = document.getElementById('avisos');
+		this.btnCreditos = document.getElementById('avisos');
 
     this.btnInstrucciones.onclick=this.mostrarInstrucciones.bind(this);
     this.btnavisos.onclick=this.mostrarAvisos.bind(this);
     this.btncomenzar.onclick=this.mostrarPuzzle.bind(this);
+    this.btnCreditos.onclick=this.mostrarCreditos.bind(this);
 
     }
     mostrarInstrucciones(){
@@ -22,5 +24,7 @@ export class VistaInicio extends Vista{
     mostrarPuzzle(){
       this.controlador.mostrarPuzzle();
     }
-
+    mostrarCreditos(){
+      this.controlador.mostrarCreditos();
+    }
 }
