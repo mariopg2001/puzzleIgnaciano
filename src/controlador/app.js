@@ -55,22 +55,44 @@ class Controlador {
         
         this.mostrarInicio()
 	}
-
 	ocultarVistas(){
+        this.vistaInicio.mostrar(false)
 		this.vistaPresentacion.mostrar(false)
 		this.vistaPuzzle.mostrar(false)
 		this.vistaInstrucciones.mostrar(false)
 		this.vistaFinJuego.mostrar(false)
 		this.vistaAvisos.mostrar(false)
 		this.vistaCreditos.mostrar(false)
-        this.vistaInicio.mostrar(false)
 	}
-
     mostrarInicio(){
         this.ocultarVistas()
 		this.vistaInicio.mostrar(true)
     }
+	mostrarPresentacion(){
+        this.ocultarVistas()
+		this.vistaPresentacion.mostrar(true)
+    } 
+	mostrarPuzzle(){
+        this.ocultarVistas()
+		this.vistaPuzzle.mostrar(true)
 
+    }
+	 mostrarInstrucciones(){
+        this.ocultarVistas()
+		this.vistaInstrucciones.mostrar(true)
+    }
+	mostrarFinJuego(){
+        this.ocultarVistas()
+		this.vistaFinJuego.mostrar(true)
+    }
+	mostrarAvisos(){
+        this.ocultarVistas()
+		this.vistaAvisos.mostrar(true)
+    }
+	mostrarCreditos(){
+        this.ocultarVistas()
+		this.vistaCreditos.mostrar(true)
+    }
 	getModelo() {
 		return this.modelo
 	}
