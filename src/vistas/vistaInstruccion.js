@@ -11,7 +11,7 @@ export class VistaInstruccion extends Vista {
 	constructor(div, controlador) {
 		super(div)
           this.controlador = controlador
-          this.btnInicio = document.getElementsByClassName('inicio');
+          this.btnInicio = document.getElementById('volver2');
           this.btnInicio.onclick=this.mostrarInicio.bind(this);
 	}
      mostrarInicio(){

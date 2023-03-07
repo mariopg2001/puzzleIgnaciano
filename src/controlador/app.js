@@ -5,7 +5,6 @@ import {VistaCreditos} from '../vistas/vistaCreditos.js'
 import {VistaFinJuego} from '../vistas/vistaFinjuego.js'
 import {VistaInicio} from '../vistas/vistaInicio.js'
 import {VistaInstruccion} from '../vistas/vistaInstruccion.js'
-import {VistaPresentacion} from '../vistas/vistaPresentacion.js'
 import {VistaPuzzle} from '../vistas/vistaPuzzle.js'
 
 
@@ -49,15 +48,11 @@ class Controlador {
 
 		this.divPuzzle = document.getElementById('Puzzle')
 		this.vistaPuzzle = new VistaPuzzle(this.divPuzzle, this)
-
-        this.divPresentacion = document.getElementById('Presentacion')
-        this.vistaPresentacion = new VistaPresentacion(this.divPresentacion, this)
         
         this.mostrarInicio()
 	}
 	ocultarVistas(){
         this.vistaInicio.mostrar(false)
-		this.vistaPresentacion.mostrar(false)
 		this.vistaPuzzle.mostrar(false)
 		this.vistaInstrucciones.mostrar(false)
 		this.vistaFinJuego.mostrar(false)
@@ -68,10 +63,6 @@ class Controlador {
         this.ocultarVistas()
 		this.vistaInicio.mostrar(true)
     }
-	mostrarPresentacion(){
-        this.ocultarVistas()
-		this.vistaPresentacion.mostrar(true)
-    } 
 	mostrarPuzzle(){
         this.ocultarVistas()
 		this.vistaPuzzle.mostrar(true)

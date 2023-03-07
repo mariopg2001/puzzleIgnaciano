@@ -4,10 +4,10 @@ export class VistaInicio extends Vista{
     constructor(div, controlador) {
 		super(div)
 		this.controlador = controlador
-		this.btncomenzar = document.getElementById('comenzar');
-		this.btnInstrucciones = document.getElementById('Instrucciones');
-		this.btnavisos = document.getElementById('avisos');
-		this.btnCreditos = document.getElementById('avisos');
+		this.btncomenzar = document.getElementById('btncomenzar');
+		this.btnInstrucciones = document.getElementById('btninstrucciones');
+		this.btnavisos = document.getElementById('btnavisos');
+		this.btnCreditos = document.getElementById('btncreditos');
 
     this.btnInstrucciones.onclick=this.mostrarInstrucciones.bind(this);
     this.btnavisos.onclick=this.mostrarAvisos.bind(this);

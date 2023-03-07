@@ -11,10 +11,10 @@ export class VistaAvisos extends Vista {
 	constructor(div, controlador) {
 		super(div)
         this.controlador = controlador
-        this.btnInicio = document.getElementsByClassName('inicio');
+        this.btnInicio = document.getElementById('volver4');
           this.btnInicio.onclick=this.mostrarInicio.bind(this);
 	}
      mostrarInicio(){
           this.controlador.mostrarInicio();
-        }
+     }
 }
