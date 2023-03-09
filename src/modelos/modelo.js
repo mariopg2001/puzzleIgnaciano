@@ -28,4 +28,10 @@ export class Modelo{
 			callback()
 		}
 	}
+	  
+    darNivel(nivel){
+       
+        return textos[nivel]
+       
+        }
 }
