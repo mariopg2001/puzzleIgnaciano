@@ -10,11 +10,17 @@ export class VistaPuzzle extends Vista {
      */
 	constructor(div, controlador) {
 		super(div)
-        this.controlador = controlador
-        this.btnInicio = document.getElementById('volver1');
+          this.controlador = controlador
+          this.nivel = 0;
+          this.btnInicio = document.getElementById('volver1');
           this.btnInicio.onclick=this.mostrarInicio.bind(this);
+          this.mostrarNivel(this.nivel);
 	}
      mostrarInicio(){
           this.controlador.mostrarInicio();
+     }
+     mostrarNivel(){
+          let level = this.controlador.sacarSiguiente(this.nivel)
+          this.nivel++
      }
 }

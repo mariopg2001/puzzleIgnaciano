@@ -24,7 +24,8 @@ class Controlador {
 	 * Método iniciar que es el primero en ejecutarse cuando se carga la pantalla
 	 */
 	iniciar() {
-		this.modelo=new Modelo(this, this.iniciarVistas.bind(this))
+		this.modelo = new Modelo(this)
+		this.iniciarVistas()
 	}
 
 	/**
@@ -84,6 +85,12 @@ class Controlador {
         this.ocultarVistas()
 		this.vistaCreditos.mostrar(true)
     }
+
+	sacarSiguiente(numero){
+		console.log(this.modelo)
+		return this.modelo.darNivel(numero);
+	}
+
 	getModelo() {
 		return this.modelo
 	}
