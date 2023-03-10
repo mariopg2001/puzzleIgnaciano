@@ -5,6 +5,12 @@ body{
     font-family: 'Tilt Neon';
 }
 
+body.bodyconfondo{
+    background-image: url('../../../src/assets/fondo_si.png');
+    background-repeat: no-repeat; 
+    background-position: center top;
+}
+
 h1{
     color: rgb(42, 96, 153);
 } 
@@ -34,40 +40,75 @@ li#margin-left{
 }
 
 div#puzzle{
-    width: 46.9083439%;
+    width: 45.9083439%;
     height: 700px;
     background-image: radial-gradient(rgb(225, 225, 225), rgb(179, 179, 179));
     /* border: 1px solid gray;  */
-    display: inline-block;
+    float: left;
     margin-left: 20px;
+    padding: 10px;
 }
 
 div#piezas{
-    width: 45.9083439%;
-    height: 700px;
+    width: 44.9083439%;
+    height: 690px;
     background-image: radial-gradient(rgb(167, 167, 167), rgb(141, 141, 141));
-    display: inline-block;
+    float: left;
     margin-left: 4.05%;
+    margin-top: 5px;
+    padding: 10px;
+    padding-top: 15px;
 }
 
-button{
+button.btnn{
     /* display: inline-block; */
+    font-family: 'Tilt Neon';
     background-color: rgb(42, 96, 153);
     font-size: x-large;
     color: white;
     border-radius: 7px;
     border: 2px solid black;
-    margin-left: 20px;
-    padding-left: 40px; 
-    padding-right: 40px; 
+    padding-left: 55px; 
+    padding-right: 55px; 
     padding-top: 20px;
     padding-bottom: 20px;
     cursor: pointer;
     /* font-weight: bold; */
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+button.sonido{
+    background-color: white;
+    border-radius: 0px;
+    border: 0px solid black;
+    padding: 0px;
+    float: right; 
+    display: inline-block;
+    margin-left: 5px;
+}
+
+button#next{
+    /* width: 5px; */
+    height: auto;
+    position: relative;
+    left: 650px;
+    top: 550px;
+}
+
+img#imgnext{
+    width: 50px;
+    height: auto;
+}
+
+#sonidoon{
+    width: 40px;
+    height: auto;
 }
 
 p{
     font-size: x-large;
+    margin: 16px;
 }
 
 @media(max-width: 1400px)
@@ -83,4 +124,23 @@ p{
         margin-left: 4.05%;
         margin-top: 20px;
     }
+}
+
+span{
+    color: rgb(42, 96, 153);
+}
+span#resaltado{
+    font-weight: bold;
+}
+
+button#left{
+    float: left;
+}
+
+button#center{
+    margin-left: 280px;
+}
+
+button#right{
+    float: right;
 }
