@@ -17,7 +17,7 @@ const nivel =[
     },
     {
         nivel:3,
-        texto:"Soy un texto ignaciano3",
+        texto:"En el tiempo de convalecencia, leyó los libros La vida de Cristo, del cartujo Ludolfo de Sajonia, y el Flos Sanctorum, que hicieron mella en él. Bajo la influencia de esos libros, se replanteó toda la vida e hizo autocrítica de su vida como soldado. Este deseo se vio acrecentado por una visión de la Virgen con el Niño Jesús, que provocó la definitiva conversión del soldado en religioso. De allí salió con la convicción de viajar a Jerusalén con la tarea de la conversión de los no cristianos en Tierra Santa.",
         imagen:"../assets/img/ignacio3.png",
         numPiezas:"4",
         x:444,
@@ -36,8 +36,8 @@ const nivel =[
         texto:"Soy un texto ignaciano5",
         imagen:"../assets/img/ignacio5.png",
         numPiezas:"9",
-        x:300,
-        y:203
+        x:293,
+        y:206
     },
     {
         nivel:6,
@@ -92,8 +92,8 @@ const nivel =[
         texto:"Soy un texto ignaciano12",
         imagen:"../assets/img/ignacio12.png",
         numPiezas:"16",
-        x:111,
-        y:111
+        x:180,
+        y:134
     },
     {
         nivel:13,
@@ -108,12 +108,12 @@ const nivel =[
         texto:"Soy un texto ignaciano14",
         imagen:"../assets/img/ignacio14.png",
         numPiezas:"25",
-        x:111,
-        y:111
+        x:177,
+        y:120
     },
     {
         nivel:15,
-        texto:"Soy un texto ignaciano15",
+        texto:"En octubre de 1538, Ignacio se encaminó hacia Roma, junto con Fabre y Laínez, para la aprobación de la constitución de la nueva orden. Un grupo de cardenales se mostró a favor de la constitución y Paulo III confirmó la orden mediante la bula Regimini militantis (27 de septiembre de 1540), pero limitaba el número de sus miembros a sesenta. Esta limitación fue revocada a través de la bula Injunctum nobis (14 de marzo de 1543). Así nacía la Societas Iesu, la Compañía de Jesús o, como se le conoce comúnmente, «los Jesuitas».",
         imagen:"../assets/img/ignacio15.png",
         numPiezas:"25",
         x:111,
