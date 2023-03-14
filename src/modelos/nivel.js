@@ -1,6 +1,6 @@
 const nivel =[
     {
-        texto:"Soy un texto ignaciano1",
+        texto:"En 1528 San Ignacio entró en la Universidad de París, donde estuvo más de 7 años, para aumentar su educación teológica y literaria, tratando de enseñar a los estudiantes sus Ejercicios Espirituales. Los Ejercicios Espirituales es un libro con oraciones y meditaciones para hacer durante 30 días y así acercar a la persona hacia Dios.",
         imagen:"../assets/img/ignacio1.png",
         numPiezas:"4",
         x:437,
